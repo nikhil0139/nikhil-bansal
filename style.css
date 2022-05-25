@@ -190,7 +190,7 @@ ul {
 }
 
 .width {
-    max-width: 1300px;
+    max-width: 100vw;
     padding-bottom: 10px;
     margin: auto;
     position: relative;
@@ -370,10 +370,13 @@ ul {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
+    margin-left: 80px;
 }
 
 .about p {
     font-size: 21px;
+    margin-left: 80px;
+    margin-right: 70px;
 }
 
 
@@ -382,7 +385,7 @@ ul {
 .abt-btn1 {
     background-color: rgb(5, 35, 123);
     padding: 10px;
-    margin-left: 450px;
+    margin-left: 580px;
     font-size: 25px;
     border-radius: 10px;
     font-weight: 100px;
@@ -557,23 +560,23 @@ ul {
 }
 
 .namesA{
-    margin-left: 25px; 
+    margin-left: 115px; 
     color: white;
 }
 .namesB{
-    margin-left: 75px; 
-    color: white;
-}
-.namesC{
-    margin-left: 80px; 
-    color: white;
-}
-.namesD{
     margin-left: 50px; 
     color: white;
 }
+.namesC{
+    margin-left: 60px; 
+    color: white;
+}
+.namesD{
+    margin-left: 30px; 
+    color: white;
+}
 .namesE{
-    margin-right: 20px; 
+    margin-right: 100px; 
     color: white;
 }
 
@@ -609,7 +612,7 @@ ul {
 .proj {
     margin: 50px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 70px;
 
 }
@@ -655,18 +658,18 @@ ul {
     margin-top: 170px;
     text-align: center;
     color: white;
-
+    margin-left: 140px;
 }
 
 .names2{
     margin-top: 170px;
     text-align: center;
-    margin-left: -55px;
+    margin-left: -15px;
     color: white;
 }
 
 .names3{
-    margin-right: 40px;
+    margin-right: 190px;
     margin-top: 170px;
     text-align: center;
     color: white;
@@ -786,7 +789,7 @@ input::-webkit-input-placeholder {
 .fA {
     font-size: 25px;
     margin-bottom: 2px;
-    margin-left: -20px;
+    margin-left: 70px;
     display: flex;
 }
 
@@ -884,7 +887,9 @@ input::-webkit-input-placeholder {
     color: rgb(126, 125, 125);
 }
 
-
+.f4{
+    margin-left: 120px;
+}
 
 
 .formfill {
@@ -901,7 +906,7 @@ input::-webkit-input-placeholder {
     margin-top: -60px;
     width: 150px;
     height: 40px;
-    margin-left: 800px;
+    margin-left: 850px;
     background-color: rgb(5, 35, 123);
     cursor: pointer;
     color: white;
