@@ -43,13 +43,13 @@ video {
 
 ul li {
     display: inline;
-    font-size: 14px;
+    font-size: 14rem;
     color: #e8e506;
 }
 
 ul {
-    word-spacing: 2px;
-    padding: 0px;
+    word-spacing: 2rem;
+    padding: 0rem;
     font-family: sans-serif;
 }
 
@@ -58,18 +58,18 @@ ul {
 .corner {
     position: absolute;
     text-align: center;
-    left: 550px;
-    top: 14px;
-    border: 0px solid #1d2123;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
+    left: 550rem;
+    top: 14rem;
+    border: 0rem solid #1d2123;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border-radius: 10rem;
 
 }
 
 
 .outer {
-    border: 0px solid #292e3a;
+    border: 0rem solid #292e3a;
     width: 100%;
     position: relative;
     display: flex;
@@ -78,14 +78,14 @@ ul {
 
 .nikhil {
 
-    font-size: 35px;
-    margin-top: -3px;
-    margin-left: -620px;
+    font-size: 35rem;
+    margin-top: -3rem;
+    margin-left: -620rem;
     position: absolute;
     display: flex;
-    text-shadow: 1.8px 1.8px rgb(14, 121, 179);
+    text-shadow: 1.8rem 1.8rem rgb(14, 121, 179);
     color: rgb(17, 18, 17);
-    letter-spacing: 1.2px;
+    letter-spacing: 1.2rem;
 
 }
 
@@ -94,34 +94,47 @@ ul {
 
 .clock {
     font-family: sans-serif;
-    font-size: 35px;
-    letter-spacing: 1.8px;
+    font-size: 35rem;
+    letter-spacing: 1.8rem;
     text-align: center;
     display: flex;
     position: absolute;
-    margin-left: -30px;
-    width: 280px;
-    text-shadow: 1.5px 1.5px rgb(14, 121, 179);
+    margin-left: -30rem;
+    width: 280rem;
+    text-shadow: 1.5rem 1.5rem rgb(14, 121, 179);
     color: rgb(18, 18, 19);
 
 
 }
 
+@media only screen and (max-width: 998rem) {
+    html {
+      font-size: 1px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1100rem) {
+    html {
+      font-size: 1px;
+    }
+  }
+
 .dateToday {
     font-family: sans-serif;
-    font-size: 32px;
-    letter-spacing: 0px;
+    font-size: 32rem;
+    letter-spacing: 0 rem;
     text-align: right;
     font-weight: bold;
     display: inline-flex;
     position: absolute;
-    margin: 1px;
-    padding: 5px;
-    top: -5px;
-    right: -900px;
-    text-shadow: 1.8px 1.8px rgb(14, 121, 179);
+    margin: 1rem;
+    padding: 5rem;
+    top: -5rem;
+    right: -900rem;
+    text-shadow: 1.8rem 1.8rem rgb(14, 121, 179);
     color: rgb(27, 28, 27);
-    margin-right: 50px;
+    margin-right: 50rem;
 
 
 
@@ -133,21 +146,21 @@ ul {
 /*-----------------------------------------------navbar styling-----------------------------------------------*/
 .navbar {
     width: 100vw;
-    padding: 0px 0px;
+    padding: 0rem 0rem;
     z-index: 999;
     position: fixed;
     top: 0;
     font-family: 'Ubuntu', sans-serif;
     position: fixed;
     background-repeat: no-repeat;
-    background-size: 1520px 110px;
+    background-size: 1520rem 110rem;
     background-color: rgb(92, 189, 242);
 
 }
 
 .navbar .logo a {
     color: #182628;
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: 600;
 
 
@@ -156,23 +169,23 @@ ul {
 .navbar .menu li {
     display: inline-block;
     list-style: none;
-    margin-right: -24px;
+    margin-right: -24rem;
 
 }
 
 .navbar .menu li a {
     display: block;
     color: white;
-    font-size: 22px;
+    font-size: 22rem;
     font-weight: 750;
     transition: 0.3s ease;
-    margin-left: 12.5px;
-    padding-left: 49.95px;
-    padding-right: 48.75px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-top: 4px solid rgb(5, 35, 123);
-    border-bottom: 4px solid rgb(5, 35, 123);
+    margin-left: 12.5rem;
+    padding-left: 49.95rem;
+    padding-right: 48.75rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    border-top: 4rem solid rgb(5, 35, 123);
+    border-bottom: 4rem solid rgb(5, 35, 123);
 
 
 
@@ -192,19 +205,19 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 100rem;
 }
 
 .width {
     max-width: 100vw;
-    padding-bottom: 10px;
+    padding-bottom: 10rem;
     margin: auto;
     position: relative;
 }
 
 .abcd {
-    margin-left: -10px;
-    margin-top: 50px;
+    margin-left: -10rem;
+    margin-top: 50rem;
 }
 
 
@@ -212,10 +225,10 @@ ul {
 /*-------------------------------------------------menu button-------------------------------------------------*/
 .menu-btn {
     color: #182628;
-    font-size: 23px;
+    font-size: 23rem;
     cursor: pointer;
     display: none;
-    margin-left: 100px;
+    margin-left: 100rem;
     text-transform: uppercase;
 }
 
@@ -238,17 +251,17 @@ ul {
 
 .scroll-up-btn {
     position: fixed;
-    height: 45px;
-    width: 42px;
+    height: 45rem;
+    width: 42rem;
     background: #65CCB8;
-    right: 30px;
-    bottom: 10px;
+    right: 30rem;
+    bottom: 10rem;
     text-align: center;
-    line-height: 45px;
+    line-height: 45rem;
     color: #182628;
     z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
+    font-size: 30rem;
+    border-radius: 6rem;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -256,7 +269,7 @@ ul {
 }
 
 .scroll-up-btn.show {
-    bottom: 30px;
+    bottom: 30rem;
     opacity: 1;
     pointer-events: auto;
 }
@@ -269,39 +282,39 @@ ul {
     display: flex;
     background: url(media/Images/Nikhil\ Bansal.jpg) no-repeat right;
     height: 100vh;
-    background-size: 390px;
-    background-position-x: 950px;
-    background-position-y: 140px;
+    background-size: 390rem;
+    background-position-x: 950rem;
+    background-position-y: 140rem;
     background-attachment: local;
     color: #182628;
-    min-height: 500px;
+    min-height: 500rem;
     font-family: 'Ubuntu', sans-serif;
     position: relative;
 }
 
 .home .width {
-    margin: auto 0 auto 40px;
+    margin: auto 0 auto 40rem;
 }
 
 .home .homeContent .text1 {
-    font-size: 27px;
-    margin-left: 50px;
-    margin-top: 30px;
+    font-size: 27rem;
+    margin-left: 50rem;
+    margin-top: 30rem;
 
 }
 
 .home .homeContent .text2 {
-    font-size: 75px;
+    font-size: 75rem;
     font-weight: 600;
-    margin-left: 44px;
-    text-shadow: 3px 3px white;
+    margin-left: 44rem;
+    text-shadow: 3rem 3rem white;
 
 
 }
 
 .home .homeContent .text3 {
-    font-size: 40px;
-    margin-left: 50px;
+    font-size: 40rem;
+    margin-left: 50rem;
 
 }
 
@@ -311,36 +324,39 @@ ul {
 
 .home-btn1 {
     background-color: rgb(5, 35, 123);
-    padding: 10px;
-    margin-left: 100px;
-    font-size: 25px;
-    border-radius: 10px;
-    font-weight: 100px;
-    border: 3px solid white;
+    padding: 10rem;
+    margin-left: 100rem;
+    font-size: 25rem;
+    border-radius: 10rem;
+    font-weight: 100rem;
+    border: 3rem solid white;
+    margin-top: 30rem;
     
 }
 
 
 .home-btn1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 
 .home-btn2 {
     background-color: rgb(5, 35, 123);
-    padding: 10px;
-    margin-left: 40px;
-    font-size: 25px;
-    border-radius: 10px;
-    border: 3px solid white;
+    padding: 10rem;
+    margin-left: 40rem;
+    font-size: 25rem;
+    border-radius: 10rem;
+    border: 3rem solid white;
+    margin-top: 30rem;
+
 }
 
 
 .home-btn2:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
@@ -363,26 +379,26 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    padding-top: 110px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
+    font-size: 50rem;
+    margin-bottom: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 110rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
 }
 
 
 
 .about .aboutContent .right .text {
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: 600;
-    margin-bottom: 10px;
-    margin-left: 80px;
+    margin-bottom: 10rem;
+    margin-left: 80rem;
 }
 
 .about p {
-    font-size: 21px;
-    margin-left: 80px;
-    margin-right: 70px;
+    font-size: 21rem;
+    margin-left: 80rem;
+    margin-right: 70rem;
 }
 
 
@@ -390,34 +406,38 @@ ul {
 
 .abt-btn1 {
     background-color: rgb(5, 35, 123);
-    padding: 10px;
-    margin-left: 580px;
-    font-size: 25px;
-    border-radius: 10px;
-    font-weight: 100px;
-    border: 3px solid white;
+    padding: 10rem;
+    margin-left: 580rem;
+    font-size: 25rem;
+    border-radius: 10rem;
+    font-weight: 100rem;
+    border: 3rem solid white;
+    margin-top: 30rem;
+
 }
 
 .abt-btn1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 
 .abt-btn2 {
     background-color:rgb(5, 35, 123);
-    padding: 10px;
-    margin-left: 40px;
-    font-size: 25px;
-    border-radius: 10px;
-    border: 3px solid white;
+    padding: 10rem;
+    margin-left: 40rem;
+    font-size: 25rem;
+    border-radius: 10rem;
+    border: 3rem solid white;
+    margin-top: 30rem;
+
 
 }
 
 .abt-btn2:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
@@ -430,39 +450,39 @@ ul {
 
 /*--------interview preparation ------------------*/
 .ip {
-    margin: 50px 50px;
+    margin: 50rem 50rem;
     display: flex;
     justify-content: space-evenly;
-    margin-top: -10px;
+    margin-top: -10rem;
 
 }
 
 .a {
-    width: 250px;
-    height: 190px;
+    width: 250rem;
+    height: 190rem;
     background-color: rgba(6, 183, 253, 0);
-    border: 2px solid white;
-    margin: 10px;
-    padding: 3px;
+    border: 2rem solid white;
+    margin: 10rem;
+    padding: 3rem;
     background-color: #182628;
-    border-radius: 30px;
+    border-radius: 30rem;
 
 }
 
 .a:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 
 #i-1 img {
-    width: 230px;
-    height: 170px;
-    margin-top: 5px;
-    border-radius: 25px;
-    border: 1px solid white;
-    margin-left: 5px;
+    width: 230rem;
+    height: 170rem;
+    margin-top: 5rem;
+    border-radius: 25rem;
+    border: 1rem solid white;
+    margin-left: 5rem;
 }
 
 
@@ -479,13 +499,13 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-top: 130px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
-    margin-top: 70px;
-    padding-top: -50px;
+    font-size: 50rem;
+    margin-bottom: 30rem;
+    padding-bottom: 20rem;
+    padding-top: 130rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
+    margin-top: 70rem;
+    padding-top: -50rem;
 
 }
 
@@ -494,42 +514,42 @@ ul {
 /*------------------coding profiles------*/
 
 .cbox {
-    margin: 50px 50px;
+    margin: 50rem 50rem;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 70px;
+    margin-top: 70rem;
 
 }
 
 .code1 {
-    width: 250px;
-    height: 300px;
+    width: 250rem;
+    height: 300rem;
     background-color: rgba(6, 183, 253, 0);
-    border: 2px solid white;
-    margin: 10px;
-    padding: 3px;
+    border: 2rem solid white;
+    margin: 10rem;
+    padding: 3rem;
     background-color: #182628;
-    border-radius: 30px;
+    border-radius: 30rem;
 
 }
 
 
 .code1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 
 
 #img-1 img {
-    width: 230px;
-    height: 280px;
-    margin-top: 5px;
-    border-radius: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid white;
+    width: 230rem;
+    height: 280rem;
+    margin-top: 5rem;
+    border-radius: 25rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 1rem solid white;
 
 }
 
@@ -547,13 +567,13 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-top: 130px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
-    margin-top: 70px;
-    padding-top: -50px;
+    font-size: 50rem;
+    margin-bottom: 30rem;
+    padding-bottom: 20rem;
+    padding-top: 130rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
+    margin-top: 70rem;
+    padding-top: -50rem;
 
 
 }
@@ -561,28 +581,28 @@ ul {
 .name{
     display: flex;
     justify-content: space-between;
-    margin-top: -50px;
-    font-size: 30px;
+    margin-top: -50rem;
+    font-size: 30rem;
 }
 
 .namesA{
-    margin-left: 115px; 
+    margin-left: 115rem; 
     color: white;
 }
 .namesB{
-    margin-left: 50px; 
+    margin-left: 50rem; 
     color: white;
 }
 .namesC{
-    margin-left: 60px; 
+    margin-left: 60rem; 
     color: white;
 }
 .namesD{
-    margin-left: 30px; 
+    margin-left: 30rem; 
     color: white;
 }
 .namesE{
-    margin-right: 100px; 
+    margin-right: 100rem; 
     color: white;
 }
 
@@ -602,37 +622,37 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-top: 130px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
-    margin-top: 70px;
-    padding-top: -50px;
-    margin-bottom: -30px;
+    font-size: 50rem;
+    margin-bottom: 30rem;
+    padding-bottom: 20rem;
+    padding-top: 130rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
+    margin-top: 70rem;
+    padding-top: -50rem;
+    margin-bottom: -30rem;
 
 
 }
 
 
 .proj {
-    margin: 50px 50px;
+    margin: 50rem 50rem;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 70px;
+    margin-top: 70rem;
 
 }
 
 .proj1 {
-    width: 250px;
-    height: 300px;
+    width: 250rem;
+    height: 300rem;
     background-color: rgba(6, 183, 253, 0);
-    border: 2px solid white;
-    margin: 10px;
-    padding: 3px;
+    border: 2rem solid white;
+    margin: 10rem;
+    padding: 3rem;
     background-color: #182628;
-    border-radius: 30px;
-    margin-bottom: -150px;
+    border-radius: 30rem;
+    margin-bottom: -150rem;
 
 
 }
@@ -640,15 +660,15 @@ ul {
 
 .proj1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 #proj1-1 img {
-    width: 230px;
-    height: 280px;
-    margin-top: 5px;
-    border-radius: 25px;
+    width: 230rem;
+    height: 280rem;
+    margin-top: 5rem;
+    border-radius: 25rem;
 
 }
 
@@ -661,22 +681,22 @@ ul {
 }
 
 .names1{
-    margin-top: 170px;
+    margin-top: 170rem;
     text-align: center;
     color: white;
-    margin-left: 140px;
+    margin-left: 140rem;
 }
 
 .names2{
-    margin-top: 170px;
+    margin-top: 170rem;
     text-align: center;
-    margin-left: -15px;
+    margin-left: -15rem;
     color: white;
 }
 
 .names3{
-    margin-right: 190px;
-    margin-top: 170px;
+    margin-right: 190rem;
+    margin-top: 170rem;
     text-align: center;
     color: white;
 
@@ -691,37 +711,37 @@ ul {
 
 
 .certibox {
-    margin: 50px 50px;
+    margin: 50rem 50rem;
     display: flex;
     justify-content: space-between;
 
 }
 
 .certi {
-    width: 250px;
-    height: 300px;
+    width: 250rem;
+    height: 300rem;
     background-color: rgba(6, 183, 253, 0);
-    border: 2px solid white;
-    margin: 10px;
-    padding: 3px;
+    border: 2rem solid white;
+    margin: 10rem;
+    padding: 3rem;
     background-color: #182628;
-    border-radius: 30px;
+    border-radius: 30rem;
 
 }
 
 .certi:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 }
 
 #_1 img {
-    width: 230px;
-    height: 280px;
-    margin-top: 5px;
-    border-radius: 25px;
-    margin-left: 5px;
+    width: 230rem;
+    height: 280rem;
+    margin-top: 5rem;
+    border-radius: 25rem;
+    margin-left: 5rem;
 
 }
 
@@ -742,12 +762,12 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-top: 130px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
-    margin-top: 40px;
+    font-size: 50rem;
+    margin-bottom: 30rem;
+    padding-bottom: 20rem;
+    padding-top: 130rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
+    margin-top: 40rem;
 }
 
 
@@ -771,12 +791,12 @@ ul {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 30px;
-    padding-bottom: 0px;
-    padding-top: 130px;
-    text-shadow: 2px 2px rgb(32, 189, 241);
-    margin-top: -40px;
+    font-size: 50rem;
+    margin-bottom: 30rem;
+    padding-bottom: 0rem;
+    padding-top: 130rem;
+    text-shadow: 2rem 2rem rgb(32, 189, 241);
+    margin-top: -10rem;
     
 }
 
@@ -785,56 +805,56 @@ ul {
 
 input,
 input::-webkit-input-placeholder {
-    font-size: 20px;
+    font-size: 20rem;
     line-height: 1.5;
-    width: 340px;
-    margin-left: 10px;
+    width: 340rem;
+    margin-left: 10rem;
     color: rgb(126, 125, 125);
 }
 
 
 .fA {
-    font-size: 25px;
-    margin-bottom: 2px;
-    margin-left: 70px;
+    font-size: 25rem;
+    margin-bottom: 2rem;
+    margin-left: 70rem;
     display: flex;
 }
 
 .f1 input {
-    padding-left: 15px;
-    border: 1px solid lightgrey;
+    padding-left: 15rem;
+    border: 1rem solid lightgrey;
 
 }
 
 .f1 img {
-    height: 50px;
-    width: 50px;
-    margin-right: 20px;
+    height: 50rem;
+    width: 50rem;
+    margin-right: 20rem;
 
 }
 
 .f1ba {
-    font-size: 27px;
-    margin-top: 9px;
-    text-shadow: 2px 2px white;
+    font-size: 27rem;
+    margin-top: 9rem;
+    text-shadow: 2rem 2rem white;
 
 }
 
 .f1bb {
-    font-size: 27px;
+    font-size: 27rem;
 
-    margin-top: 22px;
-    text-shadow: 2px 2px white;
+    margin-top: 22rem;
+    text-shadow: 2rem 2rem white;
 
 
 }
 
 
 .f1bc {
-    font-size: 27px;
+    font-size: 27rem;
 
-    margin-top: 22px;
-    text-shadow: 2px 2px white;
+    margin-top: 22rem;
+    text-shadow: 2rem 2rem white;
 
 
 }
@@ -849,53 +869,61 @@ input::-webkit-input-placeholder {
 }
 
 .f2a {
-    margin-left: 140px;
+    margin-left: 140rem;
 }
 
 .f2b {
-    margin-left: 130px;
+    margin-left: 130rem;
 }
 
 .f2a input {
-    padding-left: 10px;
-    border: 1px solid rgb(104, 100, 100);
-
-
+    padding-left: 10rem;
+    border: 1rem solid rgb(104, 100, 100);
+    font: 90rem;
+    margin-bottom: 20rem;
 }
 
 .f2b input {
-    padding-left: 10px;
-    border: 1px solid rgb(104, 100, 100);
+    padding-left: 10rem;
+    border: 1rem solid rgb(104, 100, 100);
+    margin-bottom: 20rem;
 
 }
 
 .f3 {
-    margin-top: 120px;
-    margin-left: -830px;
+    margin-top: 110rem;
+    margin-left: -830rem;
+    margin-bottom: 20rem;
+
 }
 
 .f3 textarea {
-    margin-left: 10px;
-    font-size: 20px;
-    padding-left: 10px;
-    border: 1px solid rgb(104, 100, 100);
+    margin-left: 10rem;
+    font-size: 20rem;
+    padding-left: 10rem;
+    border: 1rem solid rgb(104, 100, 100);
     color: rgba(59, 59, 59, 0.575);
+    margin-bottom: 20rem;
 
 
 }
 
 .f3 input {
-    padding-left: 10px;
-    border: 1px solid rgb(104, 100, 100);
+    padding-left: 10rem;
+    border: 1rem solid rgb(104, 100, 100);
+    margin-bottom: 20rem;
+
 
 }
 
 ::placeholder {
     color: rgb(126, 125, 125);
+    margin-bottom: 20rem;
+
 }
 
 .f4{
-    margin-left: 120px;
+    margin-left: 120rem;
 }
 
 
@@ -906,38 +934,38 @@ input::-webkit-input-placeholder {
 }
 
 #message{
-    margin-bottom: -50px;
+    margin-bottom: -50rem;
 }
 
 .sub1 {
-    margin-top: -60px;
-    width: 150px;
-    height: 40px;
-    margin-left: 850px;
+    margin-top: -60rem;
+    width: 150rem;
+    height: 40rem;
+    margin-left: 850rem;
     background-color: rgb(5, 35, 123);
     cursor: pointer;
     color: white;
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 3rem solid white;
+    border-radius: 10rem;
 
 }
 
 .res1 {
-    margin-top: -40px;
-    width: 150px;
-    height: 40px;
-    margin-left: 90px;
+    margin-top: -40rem;
+    width: 150rem;
+    height: 40rem;
+    margin-left: 90rem;
     background-color: rgb(5, 35, 123);
     cursor: pointer;
     color: white;
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 3rem solid white;
+    border-radius: 10rem;
 
 }
 
 .sub1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 
@@ -945,7 +973,7 @@ input::-webkit-input-placeholder {
 
 .res1:hover {
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10rem 40rem 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     border-color: #007bff !important;
 
@@ -958,11 +986,11 @@ input::-webkit-input-placeholder {
 footer {
     background: #25a4f9;
     color: black;
-    height: 35px;
+    height: 35rem;
     text-align: center;
     position: relative;
-    padding: 10px 20px;
-    margin-top: 50px;
+    padding: 10rem 20rem;
+    margin-top: 50rem;
 }
 
 footer span a {
@@ -972,7 +1000,7 @@ footer span a {
 
 footer span {
     color: black;
-    font-size: 20px;
+    font-size: 20rem;
 
 }
 
@@ -989,3 +1017,178 @@ footer span a:hover {
 
 
 
+
+
+/*responsive media content*/
+@media(max-width : 1300px) {
+    .home .width {
+        margin-left: 0px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
+
+@media(max-width : 1104px) {
+    .about .aboutContent .left img {
+        height: 350px;
+        width: 350px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
+
+@media(max-width : 947px) {
+
+    .width {
+        padding: 0px 50px;
+    }
+
+    .navbar .menu {
+        position: fixed;
+        background: #65CCB8;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 200px;
+        transition: all 0.5s ease;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+        color: #F2F2F2;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        color: #F2F2F2;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .navbar .menu li a:hover {
+        color: #182628;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .homeContent .text2 {
+        font-size: 70px;
+    }
+
+    .home .homeContent .text3 {
+        font-size: 36px;
+    }
+
+    .width {
+        max-width: 800px;
+    }
+
+    .about .aboutContent .column {
+        width: 100%;
+    }
+
+    .about .aboutContent .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .aboutContent .right {
+        flex: 100%;
+    }
+
+    .contact .contactContent .column,
+    .skill .skillContent .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .downbtn a {
+        font-size: 22px;
+    }
+
+    html{
+        font-size: 1px;
+    }
+
+}
+
+@media(max-width : 722px) {
+    .width {
+        padding: 0px 23px;
+    }
+
+    .home .homeContent .text2 {
+        font-size: 60px;
+    }
+
+    .home .homeContent .text3 {
+        font-size: 32px;
+    }
+
+    .downbtn a {
+        font-size: 20px;
+        padding: 9px 18px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
+
+@media(max-width : 574px) {
+    .downbtn a {
+        font-size: 16px;
+        padding: 9px 18px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
+
+@media(max-width : 505px) {
+    .home .homeContent .text2 {
+        font-size: 50px;
+    }
+
+    .home .homeContent .text3 {
+        font-size: 27px;
+    }
+
+    .downbtn a {
+        font-size: 14px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
+
+@media(max-width : 470px) {
+    .full-name {
+        font-size: 30px;
+    }
+
+    .downbtn a {
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+    html{
+        font-size: 1px;
+    }
+}
