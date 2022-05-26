@@ -763,6 +763,7 @@ ul {
     color: #182628;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    width: 100vw;
 }
 
 .contact .title {
